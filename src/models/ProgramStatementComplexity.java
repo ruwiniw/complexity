@@ -33,7 +33,8 @@ public class ProgramStatementComplexity {
 	public ProgramStatementComplexity() {
 		super();
 	}
-	
+
+	//getters and setters
 	public int getLineNumber() {
 		return lineNumber;
 	}
