@@ -82,6 +82,8 @@ body{
 <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
 <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
 </table>
+
+<%--adding upload button--%>
 <div align="center">
     <form name="upload" action="<%=request.getContextPath() %>/upload" method="POST" enctype="multipart/form-data">
     <table cellpadding="10">
