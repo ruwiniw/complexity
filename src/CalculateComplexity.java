@@ -41,7 +41,7 @@ public static List<ProgramStatementComplexity> getComplexity(String fileName) {
 		  List<ProgramStatementComplexity> programStatements = new ArrayList<>();
 		  List<ProgramStatementComplexity> total_complexities = new ArrayList<>();
 		  
-		  
+		//use a try for bufferedReader  
 		try {
 			br = new BufferedReader(new FileReader(file));
 			br1 = new BufferedReader(new FileReader(file));
