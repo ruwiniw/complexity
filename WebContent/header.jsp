@@ -63,6 +63,7 @@ body {
 </head>
 <body>
 
+<%--Change the header styles--%>
 <div class="header">
   <a href="#default" class="logo">COMPLEXITY MEASURING TOOL</a>
   <div class="header-right">
